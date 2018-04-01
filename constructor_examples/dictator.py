@@ -45,7 +45,7 @@ class Constructor(ConstructorInstance):
         return {
             "result": "success",
             'function_specs': merge_function_titles2specs(make_generic_function_spec(abi_array), function_titles),
-            'dashboard_functions': ['voteResult', 'dictatorVoting']
+            'dashboard_functions': ['voteResult']
         }
 
 
