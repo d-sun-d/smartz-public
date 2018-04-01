@@ -23,7 +23,7 @@ class Constructor(ConstructorInstance):
         return {
             "result": "success",
             'source': source,
-            'contract_name': "DictatorVouting"
+            'contract_name': "DictatorVoting"
         }
 
 
@@ -52,7 +52,7 @@ class Constructor(ConstructorInstance):
     # language=Solidity
     _TEMPLATE = """
 pragma solidity ^0.4.0;
-contract SmartVote {
+contract DictatorVoting {
     address dictator;
     bool dictatorVote;
 
