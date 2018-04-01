@@ -49,7 +49,7 @@ class Constructor(ConstructorInstance):
                 'title': 'Make your vote',
                 'description': '',
                 'inputs': [
-                    {'title': 'true/false'},
+                    {'title': 'true'},
                     {'title': 'question number'}
                 ]
 
